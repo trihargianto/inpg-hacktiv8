@@ -4,14 +4,11 @@ function sortByCharacter(text) {
   // 2. Sort array
   // 3. Convert back array to string
 
-  return text
-    .split("")
-    .sort()
-    .join("");
+  return text.split("").sort().join("");
 }
 
 console.log(sortByCharacter("hello"));
-console.log(sortByCharacter("truncate"));
+console.log(sortByCharacter("tTruncate"));
 console.log(sortByCharacter("developer"));
 console.log(sortByCharacter("software"));
 console.log(sortByCharacter("aegis"));
